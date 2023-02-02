@@ -4,7 +4,7 @@ This repository contains source codes of laboratory exercises from the course OO
 
 ## Run Locally
 
-1. Clone or download the repository
+1. Clone or [download](https://github.com/joaquinvaldezzz/oopr212/archive/refs/heads/main.zip) the repository
 
    ```
    git clone https://github.com/joaquinvaldezzz/oopr212.git
