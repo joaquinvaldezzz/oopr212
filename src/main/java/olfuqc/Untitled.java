@@ -10,7 +10,7 @@ public class Untitled extends Canvas {
 
   public void paint(Graphics pencil) {
     pencil.setColor(Color.BLACK);
-    pencil.setFont(new Font("SF Pro Display", Font.PLAIN, 16));
+    pencil.setFont(new Font(Font.SERIF, Font.PLAIN, 16));
     pencil.drawString("OOPR212", 128, 128);
 
     pencil.drawOval(30, 50, 100, 100);
@@ -35,5 +35,6 @@ public class Untitled extends Canvas {
     frame.add(untitled);
     frame.setSize(500, 500);
     frame.setVisible(true);
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   }
 }
